@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/AVeryBigSum" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Compare the Triplets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Diagonal Difference" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Plus Minus" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
