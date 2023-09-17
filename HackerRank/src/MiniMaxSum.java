@@ -1,15 +1,11 @@
-package MiniMaxSum;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.math.BigInteger;
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.Stream;
 
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
-import java.util.regex.*;
-import java.util.stream.*;
-import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
 class Result {
@@ -28,7 +24,7 @@ class Result {
 
         BigInteger numTotal = arr.stream().map(BigInteger::valueOf).reduce((num1, num2) -> num1.add(num2)).get();
         System.out.println((numTotal.subtract(BigInteger.valueOf(Collections.max(arr).longValue()))) + " " +
-                           (numTotal.subtract(BigInteger.valueOf(Collections.min(arr).longValue()))));
+                (numTotal.subtract(BigInteger.valueOf(Collections.min(arr).longValue()))));
     }
 
 }
